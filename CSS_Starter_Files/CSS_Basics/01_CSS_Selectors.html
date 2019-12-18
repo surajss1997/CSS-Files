@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+    <style>
+
+       .blue{
+            background-color: blueviolet;
+            padding: 10px;
+            box-shadow: 0 0 10px black;
+        }
+        .green{
+            background-color: limegreen;
+        }
+        .orange{
+            background-color: orange;
+        }
+
+        input[type='text']{
+            background-color: mediumpurple;
+        }
+       input[type='text']:focus{
+           background-color: red;
+           color: white;
+       }
+       input[type='password']{
+           background-color: coral;
+       }
+
+       input[type='submit']{
+           background-color: green;
+           color: white;
+           transition: all 0.5s;
+       }
+       input[type='submit']:hover{
+           background-color: red;
+           color: white;
+           font-size: 30px;
+       }
+    </style>
+</head>
+<body>
+
+<form>
+    <label>User Name</label>
+    <input type="text">
+    <br>
+    <label>Password</label>
+    <input type="password">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+
+    <p class="green  blue orange">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut dolorum est expedita illum neque officia qui sit veniam? Dolore facere id necessitatibus quidem reiciendis. Aliquam assumenda blanditiis cum cumque earum expedita explicabo impedit, inventore maiores natus nisi omnis perspiciatis quia repellat rerum sequi tenetur. Earum in molestiae quo!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut dolorum est expedita illum neque officia qui sit veniam? Dolore facere id necessitatibus quidem reiciendis. Aliquam assumenda blanditiis cum cumque earum expedita explicabo impedit, inventore maiores natus nisi omnis perspiciatis quia repellat rerum sequi tenetur. Earum in molestiae quo!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut dolorum est expedita illum neque officia qui sit veniam? Dolore facere id necessitatibus quidem reiciendis. Aliquam assumenda blanditiis cum cumque earum expedita explicabo impedit, inventore maiores natus nisi omnis perspiciatis quia repellat rerum sequi tenetur. Earum in molestiae quo!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut dolorum est expedita illum neque officia qui sit veniam? Dolore facere id necessitatibus quidem reiciendis. Aliquam assumenda blanditiis cum cumque earum expedita explicabo impedit, inventore maiores natus nisi omnis perspiciatis quia repellat rerum sequi tenetur. Earum in molestiae quo!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut dolorum est expedita illum neque officia qui sit veniam? Dolore facere id necessitatibus quidem reiciendis. Aliquam assumenda blanditiis cum cumque earum expedita explicabo impedit, inventore maiores natus nisi omnis perspiciatis quia repellat rerum sequi tenetur. Earum in molestiae quo!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut dolorum est expedita illum neque officia qui sit veniam? Dolore facere id necessitatibus quidem reiciendis. Aliquam assumenda blanditiis cum cumque earum expedita explicabo impedit, inventore maiores natus nisi omnis perspiciatis quia repellat rerum sequi tenetur. Earum in molestiae quo!</p>
+
+
+
+</body>
+</html>
